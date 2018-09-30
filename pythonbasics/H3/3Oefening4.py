@@ -2,6 +2,9 @@ import random
 
 maximum = int(input("Geef het maximale getal voor hoger/lager (0 - ?): "))
 ans = random.randint(0, maximum + 1)
+
+# Hier kun je ook een statisch getal opvragen dmv input
+
 getal = ''
 error = 0
 while getal != ans:
