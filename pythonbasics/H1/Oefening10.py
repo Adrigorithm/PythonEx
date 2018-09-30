@@ -1,0 +1,10 @@
+Verbruik_overdag = int(input("Verbruik overdag (in kWh): "))
+Verbruik_nacht = int(input("Verbruik s'nachts (in kWh): "))
+
+print("Factuur")
+print("*******")
+print("Vaste kosten: 83,6")
+print("Dagverbruik:", 0.068 * Verbruik_overdag)
+print("Nachtverbruik:", 0.035 * Verbruik_nacht)
+print("Totaal exclusief BTW:", 0.068 * Verbruik_overdag + 0.035 * Verbruik_nacht + 83.6)
+print("Totaal inclusief BTW;", (0.068 * Verbruik_overdag + 0.035 * Verbruik_nacht + 83.6) * 1.21)
