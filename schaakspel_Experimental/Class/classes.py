@@ -45,7 +45,7 @@ class board:
                 print(output[counter], end=" ")
             counter += 1
 
-        return "\n\n" + "To move a piece, write xx xx eg: moving a piece from a1 to a8 would be: a1a8"
+        return "\n\nTo move a piece, write xxxx eg: moving a piece from a1 to a8 would be: a1a8\nTo view the current scoreboard, write score"
 
     def piece_getCoords(self, coord1, coord2):
         piece_current = piece(-1, -1)
@@ -58,12 +58,27 @@ class board:
                 piece_target = square.piece
         self.piece_move(piece_current, piece_target, coord1, coord2)
 
+### rewrite this
     def piece_move(self, piece_current, piece_target, coord1, coord2):
+        piece_type = -1
         for square in self.squares:
+            piece_type = square.piece.piece_type
+            if piece_type == 1:
+                if piece_type == 2:
+                    if piece_type == 3:
+                    if piece_type == 4:
+                    if piece_type == 5:
+                    if piece_type == 6:
+
             if square.coordinate == coord1:
                 square.piece = piece_target
+                piece_type = square.piece.piece_type
             elif square.coordinate == coord2:
                 square.piece = piece_current
+
+    def piece_kill(self, piece):
+        return
+### rewrite this
 
 class square:
     xy = 0
@@ -91,3 +106,26 @@ class piece:
         self.color = color
         self.piece_type = piece_type
 
+class player:
+    color = -1
+    pawn = -1
+    knight = -1
+    bishop = -1
+    rook = -1
+    queen = -1
+    king = -1
+
+    playerdata = []
+
+    def __init__(self, color):
+        self.color = color
+        self.pawn = 8
+        self.knight = 2
+        self.bishop = 2
+        self.rook = 2
+        self.queen = 1
+        self.king = 1
+
+    def data_player(self):
+        playerdata = [self.color, self.pawn, self.knight, self.bishop, self.rook, self.queen, self.king]
+        return playerdata
