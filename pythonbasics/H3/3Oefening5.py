@@ -1,7 +1,4 @@
 fibonacchi = []
-
-# Dit is een List var. Zie oef1 voor extra info.
-
 limit = int(input("Tot hoever wil je de reeks van Fibonacci drukken? "))
 counter = 0
 

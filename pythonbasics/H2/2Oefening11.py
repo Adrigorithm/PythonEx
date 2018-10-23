@@ -6,10 +6,6 @@ elif random.randint(0,2) == 1:
 else:
     keuze_pc = "schaar"
 
-# Je kunt ook een 'domme' AI gebruiken door een statische waarde in te geven.
-# vervang code hierboven door:
-# keuze_pc = "blad" of keuze_pc = "steen" of keuze_pc = "schaar"
-
 keuze = input("Wat kies jij: blad, steen of schaar? ")
 print("Jij koos " + keuze)
 print("Ik koos " + keuze_pc)
