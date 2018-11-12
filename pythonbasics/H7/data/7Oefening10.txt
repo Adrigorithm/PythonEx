@@ -1,0 +1,51 @@
+   1 from os.path import exists
+   2 
+   3 
+   4 def weergegevens_maand(maand):
+   5     gegevens = ["", -10000.0, "", ""]
+   6     # [periode, temp_hoogst, temp_hoogst_time, temp_hoogst_date]
+   7 
+   8     if exists("data/weerstation_2018 " + maand + ".csv"):
+   9         file = open("data/weerstation_2018 " + maand + ".csv")
+  10         counter = 1
+  11         record_split = []
+  12 
+  13         for record in file.readlines():
+  14             if counter > 1:
+  15                 record = record[:-1]
+  16                 record_split = record.split(";")
+  17                 if counter == 2:
+  18                     gegevens[0] += record_split[0]
+  19                 if float(record_split[1]) > float(gegevens[1]):
+  20                     gegevens[1] = record_split[1]
+  21                     record_split_split = record_split[0].split(" ")
+  22                     gegevens[2] = record_split_split[1]
+  23                     gegevens[3] = record_split_split[0]
+  24             counter += 1
+  25 
+  26         gegevens[0] += " - " + record_split[0]
+  27         return gegevens
+  28     else:
+  29         return None
+  30 
+  31 
+  32 maand = ""
+  33 
+  34 while maand not in range(1, 13):
+  35     maand = int(input("Van welke maand wil je de weergegevens zien: "))
+  36 
+  37 maand = str(maand)
+  38 
+  39 if maand == "8":
+  40     maand = "08"
+  41 
+  42 gegevens = weergegevens_maand(maand)
+  43 
+  44 if gegevens is not None:
+  45     print()
+  46     print("Periode:", gegevens[0])
+  47     print("-------")
+  48     print("De hoogste temperatuur in deze periode =", gegevens[1], "°C")
+  49     print("Deze temperatuur werd opgemeten om " + gegevens[2] + "u op", gegevens[3])
+  50 else:
+  51     print("Over deze maand zijn geen gegevens beschikbaar!")
