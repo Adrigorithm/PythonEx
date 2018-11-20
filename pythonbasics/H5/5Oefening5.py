@@ -1,4 +1,4 @@
-numbers = (8, 5, 3, 7, 5, 6, 7, 3, 8, 2)
+numbers = (8, 5, 3, 7, 5, 6, 7, 3, 4, 2)
 print(numbers)
 
 counter = 0
