@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobkrant datum="2018-11-05">
+	<telefoon>02/4811588</telefoon>
+	<email>commercieel@jobkrant.com</email>
+	<jobs>
+		<bedrijf>
+			<naam>Tessenderlo Chemie</naam>
+			<logo>TC.gif</logo>
+			<contactpersoon>
+				<naam>Myriam Lonneville</naam>
+				<adres>Troonstraat 130 - 1050 Brussel</adres>
+				<email>myriam.lonneville@tessenderlo.com</email>
+			</contactpersoon>
+			<vacatures>
+				<vacature>
+					<functie groep="IT">IT service engineer</functie>
+					<pagina>65</pagina>
+				</vacature>
+				<vacature aantal="3">
+					<functie groep="IT">SAP specialist</functie>
+					<pagina>65</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="IT">IT systems engineer</functie>
+					<pagina>65</pagina>
+				</vacature>
+			</vacatures>
+		</bedrijf>
+		<bedrijf>
+			<naam>De Lijn</naam>
+			<logo>delijn.gif</logo>
+			<contactpersoon>
+				<naam>Ann Schellekens</naam>
+				<adres>Motstraat 20 - 2800 Mechelen</adres>
+				<email>jobs.cd@delijn.be</email>
+				<voor>2019-01-01</voor>
+			</contactpersoon>
+			<vacatures>
+				<vacature>
+					<functie groep="IT">Bedrijfsinformatieanalist</functie>
+					<omschrijving>master (in een economische richting), warm aanbevolen voor schoolverlaters</omschrijving>
+					<pagina>44</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="administratie">Administratieve medewerker</functie>
+					<omschrijving>werkt actief mee aan de opmaak en opvolging van ons investeringsprogramma</omschrijving>
+					<pagina>44</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="logistiek en distributie">Expert aankoper</functie>
+					<omschrijving>ingenieur, met oog voor een efficiënt aankoopbeleid</omschrijving>
+					<pagina>44</pagina>
+				</vacature>
+			</vacatures>
+		</bedrijf>
+		<bedrijf>
+			<naam>K.U.Leuven</naam>
+			<logo>kuleuven.gif</logo>
+			<contactpersoon>
+				<email>online: www.kuleuven.be/vacatures</email>
+			</contactpersoon>
+			<vacatures>
+				<vacature>
+					<functie groep="IT">SAP Businessanalist</functie>
+					<omschrijving>Als SAP business Analist zal je meewerken aan verschillende interne SAP-projecten voor de K.U.Leuven.</omschrijving>
+					<pagina>45</pagina>
+				</vacature>
+				<vacature aantal="2">
+					<functie groep="research">FabLab-manager</functie>
+					<omschrijving>In de opstartfase van dit project is het de bedoeling de uitbouw van het FabLab Leuven uit te bouwen en te concretiseren. In een tweede fase wordt er concrete interactie beoogd met de verschillende doelgroepen en wordt hij/zij de projectcoördinator en -begeleider van het centrum.
+De klemtoon ligt op technologische educatie.</omschrijving>
+					<pagina>45</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="IT">System engineer Unix/Linux</functie>
+					<omschrijving>We zijn op zoek naar een collega voor ons Unix/Linux Server Team met een passie voor Unix systeembeheer. Binnen het team zorg je mee voor de professionele ondersteuning van onze leer-(Blackboard) en webomgeving (LAMP/PLONE), en voor de technische ondersteuning van de HPC infrastructuur (High Performance Computing).</omschrijving>
+					<pagina>45</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="IT">Software engineer server en storage</functie>
+					<omschrijving>Als lid van de groep ICT-Infrastructuur sta je mee in voor de uitbouw en de operationele ondersteuning van de centraal beheerde netwerk- en computersystemen en de centraal aangeboden services (zoals groupware, web-services, hosting, storage, directory services, …). </omschrijving>
+					<pagina>45</pagina>
+				</vacature>
+				<vacature>
+					<functie groep="IT">Analist ontwikkelaar SAP ABAP</functie>
+					<omschrijving>Je vertaalt functionele specificaties in een technisch ontwerp. Je bouwt, ontwikkelt, implementeert en test software. Je documenteert en verzorgt de eindgebruikersdocumentatie.</omschrijving>
+					<pagina>45</pagina>
+				</vacature>
+			</vacatures>
+		</bedrijf>
+		<bedrijf>
+			<naam>ADT-ATO</naam>
+			<logo>adt.gif</logo>
+			<contactpersoon>
+				<email>www.adt-ado.be</email>
+				<voor>2018-12-20</voor>
+			</contactpersoon>
+			<vacatures>
+				<vacature>
+					<functie groep="management">Departementshoofd</functie>
+					<omschrijving>Houder/ster van een universitair diploma en affiniteit met stedenbouwkunde en architectuur-stedenbouwkunde en een ervaring van minstens vijf jaar in het beheer van omvangrijke projecten, hij/zij onderzoekt, stelt voor en ontwikkelt de modaliteiten van het uitvoeren van de strategische krachtlijnen voor de betrokken zones en gebieden. Hij/zij leidt en coördineert de projecten via een partnerschap en verzekert de contractualisering.</omschrijving>
+					<pagina>78</pagina>
+				</vacature>
+				<vacature aantal="2">
+					<functie groep="management">Projectmanager</functie>
+					<omschrijving>Houder/ster van een universitair diploma met een degelijke ervaring in stedenbouw en ruimtelijke ordening en een ervaring van ten minste drie jaar in het beheer van omvangrijke stedenbouwkundige projecten, hij/zij bereidt voor en staat in voor het uitvoeren van de stadsprojecten van de cel. Hij/zij organiseert en coördineert de acties van de verschillende actoren en partners die betrokken zijn bij de projecten.</omschrijving>
+					<pagina>78</pagina>
+				</vacature>
+			</vacatures>
+		</bedrijf>
+	</jobs>
+</jobkrant>

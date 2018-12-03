@@ -1,0 +1,35 @@
+<medicijnen>
+   <bijsluiter code="A1551">
+   	  <benaming>NAPROXEN EG</benaming>
+      <groep>ontstekingsremmer</groep>
+      <indicatie>ziekten met symptomen van ontsteking</indicatie>
+      <doktersvoorschrift />
+   </bijsluiter>
+   <bijsluiter code="Z1C209">
+      <benaming>DAFALGAN</benaming>
+      <groep>pijnstiller</groep>
+      <indicatie>symptomatische behandeling van koorts</indicatie>
+   </bijsluiter>
+   <bijsluiter code="P56145">
+      <benaming>ASPIRINE</benaming>
+      <groep>pijnstiller</groep>
+      <indicatie>symptomatische behandeling van koorts</indicatie>
+   </bijsluiter>
+   <bijsluiter code="V1265">
+      <benaming>SEDERGINE C</benaming>
+      <groep>pijnstiller</groep>
+      <indicatie>symptomatische behandeling van koorts</indicatie>
+   </bijsluiter>
+   <bijsluiter code="A14965">
+      <benaming>PERDOLAN</benaming>
+      <groep>pijnstiller</groep>
+      <indicatie>symptomatische behandeling van koorts</indicatie>
+      <doktersvoorschrift />
+   </bijsluiter>
+   <bijsluiter code="A15888">
+      <benaming>ACTIFED</benaming>
+      <groep>hoestsiroop</groep>
+      <indicatie>behandeling van de hoest gepaard gaande met congestie der slijmvliezen</indicatie>
+      <doktersvoorschrift />
+   </bijsluiter>
+</medicijnen>
